@@ -1,6 +1,5 @@
 public class Hello {
     public static void main(String[] args) {
-        String s = null;
-        System.out.println(s.length()); // NullPointerException
+        System.out.println("Pipeline fixed and working!");
     }
 }
