@@ -10,8 +10,8 @@ pipeline {
 
         stage('Build Java') {
             steps {
-                // Windows-friendly command
-                bat 'javac Hello.java'
+                sh 'javac Hello.java'
+
             }
         }
 
